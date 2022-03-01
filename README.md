@@ -50,8 +50,8 @@ This allows you to create a spring animation that is based on response, damping 
   * **Response:** Think of mass as the weight of the object animating. It changes the inertial of the object attached to the spring. That is the willingness of       an object to move or stop moving. It is conceptually heavier and can be used to create a spring animation that overshoots. The heavier the mass, the               longer it takes to move the object, speed it up, and slow it down.  
   * **Damping Fraction:** 
      Damping fraction causes a gradual reduction in a spring oscillation. By using the damping fraction, you can define how rapidly the                        
-     oscillations decay from one bounce to the next. You can damp the spring in the following ways.
-      **Damped Springs** 
+     oscillations decay from one bounce to the next. You can damp the spring in the following ways:
+     
       ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/dampedSprings.gif)
       - **Over Damping:** Set the damping fraction to a value greater than 1. It lets the object you are animating, quickly return to the rest position.
       - **Critical Damping:** Set the damping fraction = 1. It lets the object return to the rest position within the shortest amount of time.
