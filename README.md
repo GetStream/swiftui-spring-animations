@@ -28,10 +28,11 @@ An interactive spring with no parameters. This creates a spring animation with a
 
 ## 3. .interpolatingSpring(stiffness, damping)
 This allows you to create a spring animation that is based on stiffness and damping. 
-  * Stiffness: 
+  * **Stiffness:** 
     It is defined as the tensile strength of the spring. A higher stiffness will result in a snappier animation. This affects the force applied to the object   
     and changes how quickly the object moves towards its target.
-  * Damping: You can think of damping as the braking of a car or the back-drag frictional force of the surface the object is resting on. Its purpose is to stop     the object over time. It also affects the ability to overshoot the object. **Hint**: Start with a damping of 15 and stiffness of 170. Reducing the damping     to for example, 5 will create a spring animation that has a higher bounciness.
+  * **Damping:** You can think of damping as the braking of a car or the back-drag frictional force of the surface the object is resting on. Its purpose is to     stop the object over time. It also affects the ability to overshoot the object. **Hint**: Start with a damping of 15 and stiffness of 170. Reducing the   
+    damping to for example, 5 will create a spring animation that has a higher bounciness.
 
 ### Chat message reactions: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/ReactionsViewInterpolatingSpringSD.swift"> Swift file</a>
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
