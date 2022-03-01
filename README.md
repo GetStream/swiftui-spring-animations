@@ -80,6 +80,12 @@ Animate a ball's position so that it appears to be pulled towards a target by a 
 Create a spring animation that bounces a ball into view by animating its scale from 1 to 2. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Fundamentals/ScaleSpringAnimation.swift"> Swift file</a>
 ![Scale Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/scaleSpringanimation.gif)
 
+### Recording Spring Animation: 
+Create a recording effect using different springs. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Recording.swift"> Swift file</a>
+![Recording Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/recordingSpringAnimation.gif)
+
+
+<hr/>
 
 ** Related Links **
 - [https://developer.apple.com/documentation/quartzcore/caspringanimation#2826917](https://developer.apple.com/documentation/quartzcore/caspringanimation#2826917)
