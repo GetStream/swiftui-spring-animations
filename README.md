@@ -47,15 +47,20 @@ This allows you to create a spring animation that is based on mass, stiffness, d
 
 ## 5 .spring(response, dampingFraction, blendDuration)
 This allows you to create a spring animation that is based on response, damping fraction, and blend duration. Default values: .spring(response: Double = 0.55, dampingFraction: Double = 0.825, blendDuration: Double = 0). A higher response value will slow the down the animation. A lower response speeds it up. 
-  * **Response:** Think of mass as the weight of the object animating. It changes the inertial of the object attached to the spring. That is the willingness of an               object to move or stop moving. It is conceptually heavier and can be used to create a spring animation that overshoots. The heavier the mass, the               longer it takes to move the object, speed it up, and slow it down.  
-  * **Damping Fraction:** - Damping fraction causes a gradual reduction in a spring oscillation. By using the damping fraction, you can define how rapidly the                oscillations decay from one bounce to the next. You can damp the spring in the following ways.
+  * **Response:** Think of mass as the weight of the object animating. It changes the inertial of the object attached to the spring. That is the willingness of       an object to move or stop moving. It is conceptually heavier and can be used to create a spring animation that overshoots. The heavier the mass, the               longer it takes to move the object, speed it up, and slow it down.  
+  * **Damping Fraction:** 
+     Damping fraction causes a gradual reduction in a spring oscillation. By using the damping fraction, you can define how rapidly the                        
+     oscillations decay from one bounce to the next. You can damp the spring in the following ways.
+  
   <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/dampedSprings.gif">
+ 
       - **Over Damping:** Set the damping fraction to a value greater than 1. It lets the object you are animating, quickly return to the rest position.
       - **Critical Damping:** Set the damping fraction = 1. It lets the object return to the rest position within the shortest amount of time.
       - **Under Damping:** Set the damping fraction to be less than 1. It lets the object overshoot multiple times passing the rest position and gradually               reaching the rest position.
       - **Undamped:** Set the damping fraction = 0. It lets the object oscillate forever.
-  * **Blend Duration:** Blend duration is a frame of time during which a previous animation stops and the next animation starts. Changing the blend duration of any the examples here, does not produce any visual change. This makes it difficult to see what it actually does. 
-### Chat message reactions (Thumbs up icon): <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
+  * **Blend Duration:** Blend duration is a frame of time during which a previous animation stops and the next animation starts. Changing the blend duration of       any the examples here, does not produce any visual change. This makes it difficult to see what it actually does. 
+
+ ### Chat message reactions (Thumbs up icon): <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
 
 
