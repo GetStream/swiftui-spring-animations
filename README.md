@@ -83,6 +83,12 @@ This allows you to create a spring animation that is based on response, damping 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Spring%20Properties/StiffnessBounce.swift"> Swift file</a>
 ![Stiffness Bounc ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/stiffnessBounce.gif)
 
+
+### Varying Stiffness and Damping: Stiff, gentle, wobble, and no wobble
+
+<a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/StifnessDamping.swift"> Swift file</a>
+![Damping Fraction ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/dampingFractionBounce.gif)
+
 <hr/>
 
 ## SwiftUI Spring Animation Examples
