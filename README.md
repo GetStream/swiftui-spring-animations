@@ -12,6 +12,7 @@ This repository serves as a reference for SwiftUI Spring Animations. It demonstr
 
 ## SwiftUI Spring Animation Types
 
+
 ## .spring():
 A spring with no parameters. It applies gentle and sensible spring-feel to the object you want to animate.
 
