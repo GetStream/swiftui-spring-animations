@@ -105,7 +105,7 @@ Create a spring animation that bounces a ball into view by animating its scale f
 ### Recording Spring Animation: 
 Create a recording effect using different springs. 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Recording.swift"> Swift file</a>
-![Animate a photo preview to full view ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/recordingSpringAnimation.gif)
+![Create a recording effect using different springs. ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/recordingSpringAnimation.gif)
 
 ### Animate a photo preview to full view 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/MessengerPhotoView/ConversationsPhotoZoom.swift"> Swift file</a>
@@ -115,6 +115,11 @@ Create a recording effect using different springs.
 ### Animate a ball to fall and bounce
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/FallingBall.swift"> Swift file</a>
 ![Animate a ball to fall and bounce ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/fallingBallWithBounce.gif)
+
+### Animate a bell to rotate with springiness
+<a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/NotificationAnimation.swift"> Swift file</a>
+![Animate a bell to rotate with springiness ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/bellNotification.gif)
+
 
 <hr/>
 
