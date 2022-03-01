@@ -8,6 +8,7 @@ This repository serves as a reference for SwiftUI Spring Animations. It demonstr
 ## Chained Spring: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Introduction/ChainedSpring.swift"> Swift file</a>
 ![Chained Spring ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/springAnimation.gif)
 
+<hr/>
 
 ##SwiftUI Spring Animation Types
 
