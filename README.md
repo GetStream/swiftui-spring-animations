@@ -35,7 +35,7 @@ This allows you to create a spring animation that is based on stiffness and damp
     damping to for example, 5 will create a spring animation that has a higher bounciness.
 
 ### Chat message reactions: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/ReactionsViewInterpolatingSpringSD.swift"> Swift file</a>
-![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
+![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/reactions.gif)
 **:**
 
 **.interpolatingSpring(mass, stiffness, damping, initialVelocity):**
