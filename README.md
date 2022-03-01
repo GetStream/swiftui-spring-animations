@@ -5,8 +5,12 @@ This repository serves as your reference for SwiftUI Spring Animations. It demon
 ![HSwiftUI spring animation parameters ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/springParameters.svg)
 
 
-## Chained Spring: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Introduction/ChainedSpring.swift"> Swift file</a>
+## A Chained Spring: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Introduction/ChainedSpring.swift"> Swift file</a>
 ![Chained Spring ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/springAnimation.gif)
+
+## A Bouncy Transition: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/BouncyHamburger.swift"> Swift file</a>
+![Bouncy Transition ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/bouncyHamburgers.gif)
+
 
 <hr/>
 
