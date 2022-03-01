@@ -107,7 +107,7 @@ Create a recording effect using different springs.
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Recording.swift"> Swift file</a>
 ![Create a recording effect using different springs. ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/recordingSpringAnimation.gif)
 
-### Animate a photo preview to full view 
+### Animate a photo preview to its fill view 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/MessengerPhotoView/ConversationsPhotoZoom.swift"> Swift file</a>
 ![ Animate a photo preview to full view ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messagePhotoZoom.gif)
 
@@ -115,6 +115,9 @@ Create a recording effect using different springs.
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/MessengerPhotoView/ConversationsPhotoZoom.swift"> Swift file</a>
 ![ Zoom a photo from gallery ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/galleryPhotoZoom.gif)
 
+### Animate a photo from its fit view to a fullscreen view
+<a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/PhotoZoom.swift"> Swift file</a>
+![ Animate a photo from its fit view to a fullscreen view ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/photoZoom.gif)
 
 ### Animate a ball to fall and bounce
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/FallingBall.swift"> Swift file</a>
