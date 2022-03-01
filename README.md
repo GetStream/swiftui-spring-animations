@@ -13,20 +13,20 @@ This repository serves as a reference for SwiftUI Spring Animations. It demonstr
 ## SwiftUI Spring Animation Types
 
 
-## 1. .spring()
+## 1 .spring()
 A spring with no parameters. It applies gentle and sensible spring-feel to the object you want to animate.
 
 ### Menu - Close icon transition: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Spring.swift"> Swift file</a>
 ![Menu - Close icon ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/menuToClose.gif)
 
 
-## 2. .interactiveSpring()
+## 2 .interactiveSpring()
 An interactive spring with no parameters. This creates a spring animation with a high stiffness and a low response. It creates a spring animation that is less snappy:
 
 ### Menu - Close icon transition: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/InteractiveSpring.swift"> Swift file</a>
 ![Menu - Close icon ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/menuTocloseInteractive.gif)
 
-## 3. .interpolatingSpring(stiffness, damping)
+## 3 .interpolatingSpring(stiffness, damping)
 This allows you to create a spring animation that is based on stiffness and damping. 
   * **Stiffness:** 
     It is defined as the tensile strength of the spring. A higher stiffness will result in a snappier animation. This affects the force applied to the object   
@@ -38,11 +38,11 @@ This allows you to create a spring animation that is based on stiffness and damp
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/reactions.gif)
 
 
-## 4. .interpolatingSpring(mass, stiffness, damping, initialVelocity)
-This allows you to create a spring animation that is based on mass, stiffness, damping, and initial velocity.
+## 4 .interpolatingSpring(mass, stiffness, damping, initialVelocity)
+This allows you to create a spring animation that is based on mass, stiffness, damping, and initial velocity. Default values: .interpolatingSpring(mass: Double = 1.0, stiffness: Double, damping: Double, initialVelocity: Double = 0.0).
   * **Mass:** Think of mass as the weight of the object animating. It changes the inertial of the object attached to the spring. That is the willingness of an               object to move or stop moving. It is conceptually heavier and can be used to create a spring animation that overshoots. The heavier the mass, the               longer it takes to move the object, speed it up, and slow it down.  
   * **Initial Velocity:** The initial velocity defines the speed at which the animation object changes at the beginning of the animation. The default initial                 velocity is set to zero. It is measured in units per second of the animation. 
-### Chat message reactions: Heart icon <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
+### Chat message reactions (Heart icon): <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
 
 
