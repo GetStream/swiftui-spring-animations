@@ -63,11 +63,13 @@ This allows you to create a spring animation that is based on response, damping 
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
 
 
+## 6 .interactiveSpring(response, dampingFraction, blendDuration)
+This allows you to create a spring animation that is based on response, damping fraction, and blend duration. Default values: interactiveSpring(response: Double = 0.15, dampingFraction: Double = 0.86, blendDuration: Double = 0.25). You can use this spring as an alternative to .spring(response, dampingFraction, blendDuration). Always start with the default values above. To check the default values in XCode, Control-click the spring modifier and select "Show Quick Help". The thumbs down animation below uses this spring. The damping fraction is inversely proportioan to the springiness of the animation. Reducing the default damping fraction will make the animation more bouncier. As mentioned in 5 above, blend duration has not visible effect on the spring, at the time of writing this.  
+ 
+### Chat message reactions (Thumbs down icon): <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
+![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
 
-
-
-**.interactiveSpring(response, dampingFraction, blendDuration):**
-
+<hr/>
 
 ** Related Links **
 - [https://developer.apple.com/documentation/quartzcore/caspringanimation#2826917](https://developer.apple.com/documentation/quartzcore/caspringanimation#2826917)
