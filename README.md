@@ -99,8 +99,12 @@ Create a spring animation that bounces a ball into view by animating its scale f
 ### Recording Spring Animation: 
 Create a recording effect using different springs. 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Recording.swift"> Swift file</a>
-![Recording Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/recordingSpringAnimation.gif)
+![Animate a photo preview to full view ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/recordingSpringAnimation.gif)
 
+### Animate a photo preview to full view 
+Create a recording effect using different springs. 
+<a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/MessengerPhotoView/ConversationsPhotoZoom.swift"> Swift file</a>
+![Recording Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messagePhotoZoom.gif)
 
 <hr/>
 
