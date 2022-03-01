@@ -71,6 +71,14 @@ This allows you to create a spring animation that is based on response, damping 
 
 <hr/>
 
+## SwiftUI Spring Animation Examples
+### Position Spring Animation: Animate a ball's position so that it appears to be pulled towards a target by a spring. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Fundamentals/PositionSpringAnimation.swift"> Swift file</a>
+![Position Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/positionSpringAnimation.gif)
+
+### Scale Spring Animation: Create a spring animation that bounces a ball into view by animating its scale from 1 to 2. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Fundamentals/ScaleSpringAnimation.swift"> Swift file</a>
+![Scale Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/scaleSpringanimation.gif)
+
+
 ** Related Links **
 - [https://developer.apple.com/documentation/quartzcore/caspringanimation#2826917](https://developer.apple.com/documentation/quartzcore/caspringanimation#2826917)
 - [https://developpaper.com/ios-spring-animations/](https://developpaper.com/ios-spring-animations/)
