@@ -71,10 +71,23 @@ This allows you to create a spring animation that is based on response, damping 
 
 <hr/>
 
+## SwiftUI Spring Animation Properties and Effects
+
+### Damping Fraction: High, medium, low, and no bounce
+<a href="hhttps://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Spring%20Properties/DampingFractionBounce.swift"> Swift file</a>
+![Damping Fraction ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/dampingFractionBounce.gif)
+
+### Stiffness Bounce: High, low, medium, and very low stiffness
+<a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Spring%20Properties/StiffnessBounce.swift"> Swift file</a>
+![Stiffness Bounc ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/stiffnessBounce.gif)
+
+<hr/>
+
 ## SwiftUI Spring Animation Examples
 ### Position Spring Animation: 
 Animate a ball's position so that it appears to be pulled towards a target by a spring. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Fundamentals/PositionSpringAnimation.swift"> Swift file</a>
 ![Position Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/positionSpringAnimation.gif)
+
 
 ### Scale Spring Animation: 
 Create a spring animation that bounces a ball into view by animating its scale from 1 to 2. 
