@@ -109,7 +109,11 @@ Create a recording effect using different springs.
 
 ### Animate a photo preview to full view 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/MessengerPhotoView/ConversationsPhotoZoom.swift"> Swift file</a>
-![ Animate a photo preview to full view  ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messagePhotoZoom.gif)
+![ Animate a photo preview to full view ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messagePhotoZoom.gif)
+
+### Zoom a photo from its gallery 
+<a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/MessengerPhotoView/ConversationsPhotoZoom.swift"> Swift file</a>
+![ Zoom a photo from gallery ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/galleryPhotoZoom.gif)
 
 
 ### Animate a ball to fall and bounce
