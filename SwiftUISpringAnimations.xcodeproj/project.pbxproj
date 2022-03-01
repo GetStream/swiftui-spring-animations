@@ -7,18 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B11E1A127C3A4B400AB05DF /* PositionSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E1A027C3A4B400AB05DF /* PositionSpringAnimation.swift */; };
+		4B11E1A327C3A4CD00AB05DF /* ScaleSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E1A227C3A4CD00AB05DF /* ScaleSpringAnimation.swift */; };
+		4B11E1A627C3E29B00AB05DF /* ChainedSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E1A527C3E29B00AB05DF /* ChainedSpring.swift */; };
+		4B70DD6127C9CF3F0027A99E /* ConversationsPhotoZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B70DD6027C9CF3F0027A99E /* ConversationsPhotoZoom.swift */; };
+		4B70DD6327C9D2A80027A99E /* PhotoMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B70DD6227C9D2A80027A99E /* PhotoMessageView.swift */; };
+		4B7D062027C770B70002B305 /* BouncyHamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7D061F27C770B70002B305 /* BouncyHamburger.swift */; };
+		4BA77C3827BFB3FD00FB8546 /* MessengerReactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C3727BFB3FD00FB8546 /* MessengerReactions.swift */; };
+		4BA77C3B27BFCE4B00FB8546 /* DampingFractionBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C3A27BFCE4B00FB8546 /* DampingFractionBounce.swift */; };
+		4BA77C3E27BFD15600FB8546 /* StifnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C3D27BFD15600FB8546 /* StifnessDamping.swift */; };
+		4BA77C4027BFD99B00FB8546 /* DampingFractionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C3F27BFD99B00FB8546 /* DampingFractionTypes.swift */; };
+		4BA77C4227BFE69900FB8546 /* StiffnessBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C4127BFE69900FB8546 /* StiffnessBounce.swift */; };
+		4BA77C4927BFF18E00FB8546 /* PeopleStoriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C4827BFF18E00FB8546 /* PeopleStoriesDataModel.swift */; };
+		4BA77C4C27BFF20D00FB8546 /* PeopleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C4B27BFF20D00FB8546 /* PeopleHeader.swift */; };
+		4BA77C4E27BFF22D00FB8546 /* PeopleStoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA77C4D27BFF22D00FB8546 /* PeopleStoriesView.swift */; };
+		4BAD944127BE2BF1008BC321 /* GalleryPhotoZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944027BE2BF1008BC321 /* GalleryPhotoZoom.swift */; };
+		4BAD944327BE3437008BC321 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944227BE3437008BC321 /* Spring.swift */; };
+		4BAD944527BE344E008BC321 /* InteractiveSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944427BE344E008BC321 /* InteractiveSpring.swift */; };
+		4BAD944727BE3530008BC321 /* DockStyleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944627BE3530008BC321 /* DockStyleBounce.swift */; };
+		4BAD944927BE3E73008BC321 /* NotificationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944827BE3E73008BC321 /* NotificationAnimation.swift */; };
+		4BAD944B27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944A27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift */; };
+		4BAD944D27BE475C008BC321 /* InterpolatingSpringMSDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944C27BE475C008BC321 /* InterpolatingSpringMSDI.swift */; };
 		4BC21B3A27B58F110027BB91 /* SwiftUISpringAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC21B3927B58F110027BB91 /* SwiftUISpringAnimationsApp.swift */; };
-		4BC21B3C27B58F110027BB91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC21B3B27B58F110027BB91 /* ContentView.swift */; };
+		4BC21B3C27B58F110027BB91 /* FallingBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC21B3B27B58F110027BB91 /* FallingBall.swift */; };
 		4BC21B3E27B58F120027BB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC21B3D27B58F120027BB91 /* Assets.xcassets */; };
 		4BC21B4127B58F120027BB91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC21B4027B58F120027BB91 /* Preview Assets.xcassets */; };
+		4BC4B58F27C8B85300321107 /* PhotoZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4B58E27C8B85300321107 /* PhotoZoom.swift */; };
+		4BC4B59427C8C55800321107 /* ComposeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4B59327C8C55800321107 /* ComposeAreaView.swift */; };
+		4BC4B59627C8C5FF00321107 /* ConversationsHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC4B59527C8C5FF00321107 /* ConversationsHeader.swift */; };
+		4BD267D927CCF4A3001C784B /* SilentModeOnOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD267D827CCF4A3001C784B /* SilentModeOnOff.swift */; };
+		4BD267DB27CD0F29001C784B /* ReactionsSpringsWithParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD267DA27CD0F29001C784B /* ReactionsSpringsWithParameters.swift */; };
+		4BEB1EE427C61A93006D9131 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEB1EE327C61A93006D9131 /* Recording.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B11E1A027C3A4B400AB05DF /* PositionSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionSpringAnimation.swift; sourceTree = "<group>"; };
+		4B11E1A227C3A4CD00AB05DF /* ScaleSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSpringAnimation.swift; sourceTree = "<group>"; };
+		4B11E1A527C3E29B00AB05DF /* ChainedSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedSpring.swift; sourceTree = "<group>"; };
+		4B70DD6027C9CF3F0027A99E /* ConversationsPhotoZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsPhotoZoom.swift; sourceTree = "<group>"; };
+		4B70DD6227C9D2A80027A99E /* PhotoMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMessageView.swift; sourceTree = "<group>"; };
+		4B7D061F27C770B70002B305 /* BouncyHamburger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyHamburger.swift; sourceTree = "<group>"; };
+		4BA77C3727BFB3FD00FB8546 /* MessengerReactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerReactions.swift; sourceTree = "<group>"; };
+		4BA77C3A27BFCE4B00FB8546 /* DampingFractionBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DampingFractionBounce.swift; sourceTree = "<group>"; };
+		4BA77C3D27BFD15600FB8546 /* StifnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StifnessDamping.swift; sourceTree = "<group>"; };
+		4BA77C3F27BFD99B00FB8546 /* DampingFractionTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DampingFractionTypes.swift; sourceTree = "<group>"; };
+		4BA77C4127BFE69900FB8546 /* StiffnessBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffnessBounce.swift; sourceTree = "<group>"; };
+		4BA77C4827BFF18E00FB8546 /* PeopleStoriesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleStoriesDataModel.swift; sourceTree = "<group>"; };
+		4BA77C4B27BFF20D00FB8546 /* PeopleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleHeader.swift; sourceTree = "<group>"; };
+		4BA77C4D27BFF22D00FB8546 /* PeopleStoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleStoriesView.swift; sourceTree = "<group>"; };
+		4BAD944027BE2BF1008BC321 /* GalleryPhotoZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPhotoZoom.swift; sourceTree = "<group>"; };
+		4BAD944227BE3437008BC321 /* Spring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		4BAD944427BE344E008BC321 /* InteractiveSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveSpring.swift; sourceTree = "<group>"; };
+		4BAD944627BE3530008BC321 /* DockStyleBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockStyleBounce.swift; sourceTree = "<group>"; };
+		4BAD944827BE3E73008BC321 /* NotificationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAnimation.swift; sourceTree = "<group>"; };
+		4BAD944A27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsViewInterpolatingSpringSD.swift; sourceTree = "<group>"; };
+		4BAD944C27BE475C008BC321 /* InterpolatingSpringMSDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingSpringMSDI.swift; sourceTree = "<group>"; };
 		4BC21B3627B58F110027BB91 /* SwiftUISpringAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISpringAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC21B3927B58F110027BB91 /* SwiftUISpringAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISpringAnimationsApp.swift; sourceTree = "<group>"; };
-		4BC21B3B27B58F110027BB91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4BC21B3B27B58F110027BB91 /* FallingBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingBall.swift; sourceTree = "<group>"; };
 		4BC21B3D27B58F120027BB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC21B4027B58F120027BB91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BC4B58E27C8B85300321107 /* PhotoZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoZoom.swift; sourceTree = "<group>"; };
+		4BC4B59327C8C55800321107 /* ComposeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeAreaView.swift; sourceTree = "<group>"; };
+		4BC4B59527C8C5FF00321107 /* ConversationsHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsHeader.swift; sourceTree = "<group>"; };
+		4BD267D827CCF4A3001C784B /* SilentModeOnOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentModeOnOff.swift; sourceTree = "<group>"; };
+		4BD267DA27CD0F29001C784B /* ReactionsSpringsWithParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsSpringsWithParameters.swift; sourceTree = "<group>"; };
+		4BEB1EE327C61A93006D9131 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +86,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B11E19F27C3A43800AB05DF /* Fundamentals */ = {
+			isa = PBXGroup;
+			children = (
+				4B11E1A027C3A4B400AB05DF /* PositionSpringAnimation.swift */,
+				4B11E1A227C3A4CD00AB05DF /* ScaleSpringAnimation.swift */,
+			);
+			path = Fundamentals;
+			sourceTree = "<group>";
+		};
+		4B11E1A427C3E25600AB05DF /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				4B11E1A527C3E29B00AB05DF /* ChainedSpring.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		4BA77C3927BFBD5300FB8546 /* Spring Properties */ = {
+			isa = PBXGroup;
+			children = (
+				4BA77C3A27BFCE4B00FB8546 /* DampingFractionBounce.swift */,
+				4BA77C3F27BFD99B00FB8546 /* DampingFractionTypes.swift */,
+				4BA77C4127BFE69900FB8546 /* StiffnessBounce.swift */,
+			);
+			path = "Spring Properties";
+			sourceTree = "<group>";
+		};
+		4BA77C4727BFF15F00FB8546 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4BA77C4827BFF18E00FB8546 /* PeopleStoriesDataModel.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		4BA77C4A27BFF1DB00FB8546 /* MomentumScrolling */ = {
+			isa = PBXGroup;
+			children = (
+				4BA77C4B27BFF20D00FB8546 /* PeopleHeader.swift */,
+				4BA77C4D27BFF22D00FB8546 /* PeopleStoriesView.swift */,
+			);
+			path = MomentumScrolling;
+			sourceTree = "<group>";
+		};
 		4BC21B2D27B58F100027BB91 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +149,17 @@
 		4BC21B3827B58F110027BB91 /* SwiftUISpringAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				4BA77C4727BFF15F00FB8546 /* DataSource */,
 				4BC21B3927B58F110027BB91 /* SwiftUISpringAnimationsApp.swift */,
-				4BC21B3B27B58F110027BB91 /* ContentView.swift */,
+				4B11E1A427C3E25600AB05DF /* Introduction */,
+				4B11E19F27C3A43800AB05DF /* Fundamentals */,
+				4BAD944227BE3437008BC321 /* Spring.swift */,
+				4BAD944427BE344E008BC321 /* InteractiveSpring.swift */,
+				4BAD944A27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift */,
+				4BAD944C27BE475C008BC321 /* InterpolatingSpringMSDI.swift */,
+				4BEB1EE327C61A93006D9131 /* Recording.swift */,
+				4BA77C3927BFBD5300FB8546 /* Spring Properties */,
+				4BEB1EE227C61A6B006D9131 /* SpringExamples */,
 				4BC21B3D27B58F120027BB91 /* Assets.xcassets */,
 				4BC21B3F27B58F120027BB91 /* Preview Content */,
 			);
@@ -65,6 +172,36 @@
 				4BC21B4027B58F120027BB91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4BC4B59027C8C31E00321107 /* MessengerPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				4BC4B59327C8C55800321107 /* ComposeAreaView.swift */,
+				4BC4B59527C8C5FF00321107 /* ConversationsHeader.swift */,
+				4B70DD6027C9CF3F0027A99E /* ConversationsPhotoZoom.swift */,
+				4B70DD6227C9D2A80027A99E /* PhotoMessageView.swift */,
+			);
+			path = MessengerPhotoView;
+			sourceTree = "<group>";
+		};
+		4BEB1EE227C61A6B006D9131 /* SpringExamples */ = {
+			isa = PBXGroup;
+			children = (
+				4BC4B59027C8C31E00321107 /* MessengerPhotoView */,
+				4BA77C4A27BFF1DB00FB8546 /* MomentumScrolling */,
+				4BA77C3D27BFD15600FB8546 /* StifnessDamping.swift */,
+				4BC21B3B27B58F110027BB91 /* FallingBall.swift */,
+				4BA77C3727BFB3FD00FB8546 /* MessengerReactions.swift */,
+				4BAD944827BE3E73008BC321 /* NotificationAnimation.swift */,
+				4BAD944027BE2BF1008BC321 /* GalleryPhotoZoom.swift */,
+				4BC4B58E27C8B85300321107 /* PhotoZoom.swift */,
+				4BAD944627BE3530008BC321 /* DockStyleBounce.swift */,
+				4B7D061F27C770B70002B305 /* BouncyHamburger.swift */,
+				4BD267DA27CD0F29001C784B /* ReactionsSpringsWithParameters.swift */,
+				4BD267D827CCF4A3001C784B /* SilentModeOnOff.swift */,
+			);
+			path = SpringExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +274,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC21B3C27B58F110027BB91 /* ContentView.swift in Sources */,
+				4BAD944727BE3530008BC321 /* DockStyleBounce.swift in Sources */,
+				4BA77C4227BFE69900FB8546 /* StiffnessBounce.swift in Sources */,
+				4BA77C3B27BFCE4B00FB8546 /* DampingFractionBounce.swift in Sources */,
+				4BC4B59427C8C55800321107 /* ComposeAreaView.swift in Sources */,
+				4B11E1A627C3E29B00AB05DF /* ChainedSpring.swift in Sources */,
+				4BC4B59627C8C5FF00321107 /* ConversationsHeader.swift in Sources */,
+				4BAD944B27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift in Sources */,
+				4BC21B3C27B58F110027BB91 /* FallingBall.swift in Sources */,
+				4BA77C3E27BFD15600FB8546 /* StifnessDamping.swift in Sources */,
+				4B7D062027C770B70002B305 /* BouncyHamburger.swift in Sources */,
+				4BA77C4927BFF18E00FB8546 /* PeopleStoriesDataModel.swift in Sources */,
+				4B70DD6127C9CF3F0027A99E /* ConversationsPhotoZoom.swift in Sources */,
+				4B11E1A327C3A4CD00AB05DF /* ScaleSpringAnimation.swift in Sources */,
+				4BAD944D27BE475C008BC321 /* InterpolatingSpringMSDI.swift in Sources */,
+				4BAD944127BE2BF1008BC321 /* GalleryPhotoZoom.swift in Sources */,
+				4BEB1EE427C61A93006D9131 /* Recording.swift in Sources */,
+				4B11E1A127C3A4B400AB05DF /* PositionSpringAnimation.swift in Sources */,
+				4BAD944327BE3437008BC321 /* Spring.swift in Sources */,
+				4BAD944927BE3E73008BC321 /* NotificationAnimation.swift in Sources */,
+				4B70DD6327C9D2A80027A99E /* PhotoMessageView.swift in Sources */,
+				4BC4B58F27C8B85300321107 /* PhotoZoom.swift in Sources */,
+				4BD267DB27CD0F29001C784B /* ReactionsSpringsWithParameters.swift in Sources */,
+				4BAD944527BE344E008BC321 /* InteractiveSpring.swift in Sources */,
+				4BA77C4C27BFF20D00FB8546 /* PeopleHeader.swift in Sources */,
+				4BA77C4E27BFF22D00FB8546 /* PeopleStoriesView.swift in Sources */,
+				4BD267D927CCF4A3001C784B /* SilentModeOnOff.swift in Sources */,
+				4BA77C3827BFB3FD00FB8546 /* MessengerReactions.swift in Sources */,
 				4BC21B3A27B58F110027BB91 /* SwiftUISpringAnimationsApp.swift in Sources */,
+				4BA77C4027BFD99B00FB8546 /* DampingFractionTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +471,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

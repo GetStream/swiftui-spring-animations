@@ -1,8 +1,8 @@
 //
 //  SwiftUISpringAnimationsApp.swift
-//  SwiftUISpringAnimations
+//  Learning SwiftUI Spring Animations: The Basics and Beyond
 //
-//  Created by amos.gyamfi@getstream.io on 10.2.2022.
+//  Created by Amos from getstream.io
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUISpringAnimationsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Spring()
         }
     }
 }
