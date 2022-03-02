@@ -51,7 +51,7 @@ This allows you to create a spring animation that is based on mass, stiffness, d
 
 ## 5 .spring(response, dampingFraction, blendDuration)
 This allows you to create a spring animation that is based on response, damping fraction, and blend duration. Default values: .spring (response: Double = 0.55, dampingFraction: Double = 0.825, blendDuration: Double = 0). A higher response value will slow the down the animation. A lower response speeds it up. 
-  * **Response:** Think of mass as the weight of the object animating. It changes the inertial of the object attached to the spring. That is the willingness of       an object to move or stop moving. It is conceptually heavier and can be used to create a spring animation that overshoots. The heavier the mass, the               longer it takes to move the object, speed it up, and slow it down.  
+  * **Response:** It controls how quickly an animating property value will try and get to a target. You can use the response to create an infinitely-stiff spring by setting its value to zero. 
   * **Damping Fraction:** 
      Damping fraction causes a gradual reduction in a spring oscillation. By using the damping fraction, you can define how rapidly the                        
      oscillations decay from one bounce to the next. You can damp the spring in the following ways:
