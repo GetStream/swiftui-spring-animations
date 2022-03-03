@@ -1,7 +1,7 @@
 # Swiftui Spring Animations
 Unlock the secrets of iOS spring animations using SwiftUI. Learn all the SwiftUI spring animation types, understand their parameters, and discover how to create organic and fine-grained spring animations to enhance the user experience of your next iOS app.
 
-Video tutorial: (<a href="https://www.youtube.com/watch?v=xEWBIlQz35M&list=PLNBhvhkAJG6tJYnY-5oZ1JCp2fBNbVL_6">Coming soon</a>)
+Video tutorial: (<a href="https://www.youtube.com/playlist?list=PLNBhvhkAJG6tJYnY-5oZ1JCp2fBNbVL_6" target="_blank">Coming soon</a>)
 
 
 ![HSwiftUI spring animation parameters ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/springParameters.svg)
