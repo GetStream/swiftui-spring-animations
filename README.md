@@ -27,7 +27,7 @@ A spring with no parameters. It applies gentle and sensible spring-feel to the o
 
 
 ## 2 .interactiveSpring()
-An interactive spring with no parameters. This creates a spring animation with a high stiffness and a low response. It creates a spring animation that is less snappy:
+An interactive spring with no parameters. This creates a spring animation with high stiffness and low response. It makes the animation is less snappy:
 
 ### Menu - Close icon transition: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/InteractiveSpring.swift"> Swift file</a>
 ![Menu - Close icon ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/menuTocloseInteractive.gif)
@@ -35,10 +35,10 @@ An interactive spring with no parameters. This creates a spring animation with a
 ## 3 .interpolatingSpring(stiffness, damping)
 This allows you to create a spring animation that is based on stiffness and damping. 
   * **Stiffness:** 
-    It is defined as the tensile strength of the spring. A higher stiffness will result in a snappier animation. This affects the force applied to the object   
+    It is defined as the tensile strength of the spring. A higher stiffness will result in snappier animations. This affects the force applied to the object   
     and changes how quickly the object moves towards its target.
   * **Damping:** You can think of damping as the braking of a car or the back-drag frictional force on the surface the object is resting on. Its purpose is to     stop the object over time. It also affects the ability to overshoot the object. **Hint**: Start with a damping of 15 and stiffness of 170. Reducing the   
-    damping to for example, 5 will create a spring animation that has a higher bounciness.
+    damping for example, to a value of 5 will create a spring animation that has higher bounciness.
 
 ### Chat message reactions: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/ReactionsViewInterpolatingSpringSD.swift"> Swift file</a>
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/reactions.gif)
@@ -63,14 +63,14 @@ This allows you to create a spring animation that is based on response, damping 
       - **Critical Damping:** Set the damping fraction = 1. It lets the object return to the rest position within the shortest possible time.
       -  **Under Damping:** Set the damping fraction to be less than 1. It lets the object overshoot multiple times passing the rest position and gradually               reaching the rest position.
       - **Undamped:** Set the damping fraction = 0. This lets the object oscillate forever.
-  * **Blend Duration:** Blend duration is a frame of time during which a previous animation stops and the next animation starts. Changing the blend duration of       any the examples here, does not produce any visual change. This makes it difficult to see what it actually does. 
+  * **Blend Duration:** Blend duration is a frame of time during which a previous animation stops and the next animation starts. Changing the blend duration of       any of the examples in this repository, does not produce any visual change. This makes it difficult to see what it actually does. 
 
  ### Chat message reactions (Thumbs up icon): <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
 
 
 ## 6 .interactiveSpring(response, dampingFraction, blendDuration)
-This allows you to create a spring animation that is based on response, damping fraction, and blend duration. Default values: interactiveSpring (response: Double = 0.15, dampingFraction: Double = 0.86, blendDuration: Double = 0.25). You can use this spring as an alternative to .spring(response, dampingFraction, blendDuration). Always start with the default values above. To check the default values in XCode, Control-click the spring modifier and select "Show Quick Help". The thumbs down animation below uses this spring. The damping fraction is inversely proportioan to the springiness of the animation. Reducing the default damping fraction will make the animation more bouncier. As mentioned in 5 above, blend duration has not visible effect on the spring, at the time of writing this article.  
+This allows you to create a spring animation that is based on response, damping fraction, and blend duration. Default values: interactiveSpring (response: Double = 0.15, dampingFraction: Double = 0.86, blendDuration: Double = 0.25). You can use this spring as an alternative to .spring(response, dampingFraction, blendDuration). Always start with the default values above. To check the default values in XCode, Control-click the spring modifier and select "Show Quick Help". The thumbs down animation below uses this spring. The damping fraction is inversely proportional to the springiness of the animation. Reducing the default damping fraction will make the animation bouncier. As mentioned in step 5 above, blend duration has no visible effect on the spring, at the time of writing this article.  
  
 ### Chat message reactions (Thumbs down icon): <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/ReactionsSpringsWithParameters.swift"> Swift file</a>
 ![Chat message reactions ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/messengerReacrions.gif)
