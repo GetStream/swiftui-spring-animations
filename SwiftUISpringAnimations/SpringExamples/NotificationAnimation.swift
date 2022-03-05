@@ -32,7 +32,7 @@ struct NotificationAnimation: View {
                     Circle() // Clapper
                         .frame(width: 16, height: 16, alignment: .topLeading)
                         .rotationEffect(.degrees(0), anchor: clapperMoving ? .leading : .topTrailing)
-                        .offset(x: CGFloat(clapperMoving ? -10 : 15))
+                        .offset(x: CGFloat(clapperMoving ? -10 : 25), y: CGFloat(clapperMoving ? -4 : 2))
                         .animation(.interpolatingSpring(stiffness: 170, damping: 5).repeatForever(autoreverses: false), value: clapperMoving)
                 }
                 .hueRotation(.degrees(200))
