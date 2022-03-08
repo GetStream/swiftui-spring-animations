@@ -87,23 +87,31 @@ This allows you to create a spring animation that is based on response, damping 
 ### Stiffness Bounce: High, low, medium, and very low stiffness
 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Spring%20Properties/StiffnessBounce.swift"> Swift file</a>
-![Stiffness Bounc ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/stiffnessBounce.gif)
+![Stiffness Bounc](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/stiffnessBounce.gif)
 
 
 ### Varying Stiffness and Damping: Stiff, gentle, wobble, and no wobble
 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/StifnessDamping.swift"> Swift file</a>
-![Damping Fraction ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/stiffnessDamping.gif)
+![Damping Fraction](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/stiffnessDamping.gif)
 
 <hr/>
 
 ## SwiftUI Spring Animation Examples
-### Position Spring Animation: 
+### Silent Mode: On 
+Animate a bell to fall and rotate after falling. It is similar to the iOS silent mode (on) animation. Since this animation emulates the presence of sound, it uses a very low damping to create a high bounce. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOn.swift"> Swift file</a>
+![Silent Mode: On](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/silentModeOn.gif)
+
+### Silent Mode: Off  
+Animate a slashed bell to fall and rotate after falling. It uses a rectangular mask to show and hide the bell icon. Since this animation simulates the absence of sound, it uses moderate damping to prevent the bell from bouncing. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOff.swift"> Swift file</a>
+![Silent Mode: Off](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/silentModeOff.gif)
+
+### Position Spring Animation
 Animate a ball's position so that it appears to be pulled towards a target by a spring. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Fundamentals/PositionSpringAnimation.swift"> Swift file</a>
-![Position Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/positionSpringAnimation.gif)
+![Position Spring Animation](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/positionSpringAnimation.gif)
 
 
-### Scale Spring Animation: 
+### Scale Spring Animation
 Create a spring animation that bounces a ball into view by animating its scale from 1 to 2. 
 <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/Fundamentals/ScaleSpringAnimation.swift"> Swift file</a>
 ![Scale Spring Animation ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/scaleSpringanimation.gif)
