@@ -99,11 +99,11 @@ This allows you to create a spring animation that is based on response, damping 
 
 ## SwiftUI Spring Animation Examples
 ### Silent Mode: On 
-Animate a bell to fall and rotate after falling. It is similar to the iOS silent mode (on) animation. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOn.swift"> Swift file</a>
+Animate a bell to fall and rotate after falling. It is similar to the iOS silent mode (on) animation. Since this animation emulates the presence of sound, it uses a very low damping to create a high bounce. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOn.swift"> Swift file</a>
 ![Silent Mode: On](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/silentModeOn.gif)
 
 ### Silent Mode: Off  
-Animate a slashed bell to fall and rotate after falling. It uses a rectangular mask to show and hide the bell icon <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOff.swift"> Swift file</a>
+Animate a slashed bell to fall and rotate after falling. It uses a rectangular mask to show and hide the bell icon. Since this animation simulates the absence of sound, it uses moderate damping to prevent the bell from bouncing. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOff.swift"> Swift file</a>
 ![Silent Mode: Off](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/silentModeOff.gif)
 
 ### Position Spring Animation
