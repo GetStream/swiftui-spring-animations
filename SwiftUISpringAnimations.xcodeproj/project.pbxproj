@@ -10,6 +10,7 @@
 		4B11E1A127C3A4B400AB05DF /* PositionSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E1A027C3A4B400AB05DF /* PositionSpringAnimation.swift */; };
 		4B11E1A327C3A4CD00AB05DF /* ScaleSpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E1A227C3A4CD00AB05DF /* ScaleSpringAnimation.swift */; };
 		4B11E1A627C3E29B00AB05DF /* ChainedSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B11E1A527C3E29B00AB05DF /* ChainedSpring.swift */; };
+		4B6055AA27D66D6800DB584F /* BouncingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6055A927D66D6800DB584F /* BouncingLoader.swift */; };
 		4B70DD6127C9CF3F0027A99E /* ConversationsPhotoZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B70DD6027C9CF3F0027A99E /* ConversationsPhotoZoom.swift */; };
 		4B70DD6327C9D2A80027A99E /* PhotoMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B70DD6227C9D2A80027A99E /* PhotoMessageView.swift */; };
 		4B771BAC27D366AB008EA9FD /* SilentModeOff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B771BAB27D366AB008EA9FD /* SilentModeOff.swift */; };
@@ -33,6 +34,7 @@
 		4BAD944927BE3E73008BC321 /* NotificationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944827BE3E73008BC321 /* NotificationAnimation.swift */; };
 		4BAD944B27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944A27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift */; };
 		4BAD944D27BE475C008BC321 /* InterpolatingSpringMSDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAD944C27BE475C008BC321 /* InterpolatingSpringMSDI.swift */; };
+		4BC10F7C27D75F0100E194C5 /* BackAndForthBouncingLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC10F7B27D75F0100E194C5 /* BackAndForthBouncingLoader.swift */; };
 		4BC21B3A27B58F110027BB91 /* SwiftUISpringAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC21B3927B58F110027BB91 /* SwiftUISpringAnimationsApp.swift */; };
 		4BC21B3C27B58F110027BB91 /* FallingBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC21B3B27B58F110027BB91 /* FallingBall.swift */; };
 		4BC21B3E27B58F120027BB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC21B3D27B58F120027BB91 /* Assets.xcassets */; };
@@ -49,6 +51,7 @@
 		4B11E1A027C3A4B400AB05DF /* PositionSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionSpringAnimation.swift; sourceTree = "<group>"; };
 		4B11E1A227C3A4CD00AB05DF /* ScaleSpringAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleSpringAnimation.swift; sourceTree = "<group>"; };
 		4B11E1A527C3E29B00AB05DF /* ChainedSpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainedSpring.swift; sourceTree = "<group>"; };
+		4B6055A927D66D6800DB584F /* BouncingLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingLoader.swift; sourceTree = "<group>"; };
 		4B70DD6027C9CF3F0027A99E /* ConversationsPhotoZoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsPhotoZoom.swift; sourceTree = "<group>"; };
 		4B70DD6227C9D2A80027A99E /* PhotoMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMessageView.swift; sourceTree = "<group>"; };
 		4B771BAB27D366AB008EA9FD /* SilentModeOff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilentModeOff.swift; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		4BAD944827BE3E73008BC321 /* NotificationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAnimation.swift; sourceTree = "<group>"; };
 		4BAD944A27BE4627008BC321 /* ReactionsViewInterpolatingSpringSD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactionsViewInterpolatingSpringSD.swift; sourceTree = "<group>"; };
 		4BAD944C27BE475C008BC321 /* InterpolatingSpringMSDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingSpringMSDI.swift; sourceTree = "<group>"; };
+		4BC10F7B27D75F0100E194C5 /* BackAndForthBouncingLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackAndForthBouncingLoader.swift; sourceTree = "<group>"; };
 		4BC21B3627B58F110027BB91 /* SwiftUISpringAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISpringAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC21B3927B58F110027BB91 /* SwiftUISpringAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISpringAnimationsApp.swift; sourceTree = "<group>"; };
 		4BC21B3B27B58F110027BB91 /* FallingBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingBall.swift; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 				4BD267DA27CD0F29001C784B /* ReactionsSpringsWithParameters.swift */,
 				4BD267D827CCF4A3001C784B /* SilentModeOn.swift */,
 				4B771BAB27D366AB008EA9FD /* SilentModeOff.swift */,
+				4B6055A927D66D6800DB584F /* BouncingLoader.swift */,
+				4BC10F7B27D75F0100E194C5 /* BackAndForthBouncingLoader.swift */,
 			);
 			path = SpringExamples;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 				4BAD944727BE3530008BC321 /* DockStyleBounce.swift in Sources */,
 				4BA77C4227BFE69900FB8546 /* StiffnessBounce.swift in Sources */,
 				4BA77C3B27BFCE4B00FB8546 /* DampingFractionBounce.swift in Sources */,
+				4BC10F7C27D75F0100E194C5 /* BackAndForthBouncingLoader.swift in Sources */,
 				4BC4B59427C8C55800321107 /* ComposeAreaView.swift in Sources */,
 				4B11E1A627C3E29B00AB05DF /* ChainedSpring.swift in Sources */,
 				4BC4B59627C8C5FF00321107 /* ConversationsHeader.swift in Sources */,
@@ -330,6 +337,7 @@
 				4BD267D927CCF4A3001C784B /* SilentModeOn.swift in Sources */,
 				4BA77C3827BFB3FD00FB8546 /* MessengerReactions.swift in Sources */,
 				4BC21B3A27B58F110027BB91 /* SwiftUISpringAnimationsApp.swift in Sources */,
+				4B6055AA27D66D6800DB584F /* BouncingLoader.swift in Sources */,
 				4BA77C4027BFD99B00FB8546 /* DampingFractionTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
