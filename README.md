@@ -1,4 +1,4 @@
-# Swiftui Spring Animations
+# SwiftUI Spring Animations Cheat Sheet for Developers
 Unlock the secrets of iOS spring animations using SwiftUI. Learn all the SwiftUI spring animation types, understand their parameters, and discover how to create organic and fine-grained spring animations to enhance the user experience of your next iOS app.
 
 
