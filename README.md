@@ -102,6 +102,13 @@ This allows you to create a spring animation that is based on response, damping 
 <hr/>
 
 ## SwiftUI Spring Animation Examples
+
+## Chat Emojis: <a href="https://gist.github.com/amosgyamfi/1852a73764ccc6790bed18f10057579a"> Swift file</a>
+![Chat Emojis ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/chatEmojis.gif)
+
+## Draggable Menu ( <a href="https://www.hackingwithswift.com/books/ios-swiftui/customizing-animations-in-swiftui"> Inapired by Hackingwithswift</a>):  <a href="https://gist.github.com/amosgyamfi/37bf602c0fd145e3f5a8e6384dd5f796"> Swift file</a>
+![Draggable Menu ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/draggableMenu.gif)
+
 ### Silent Mode: On 
 Animate a bell to fall and rotate after falling. It is similar to the iOS silent mode (on) animation. Since this animation emulates the presence of sound, it uses a very low damping to create a high bounce. <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/SilentModeOn.swift"> Swift file</a>
 ![Silent Mode: On](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/silentModeOn.gif)
