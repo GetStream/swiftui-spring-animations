@@ -1,4 +1,8 @@
 # SwiftUI Spring Animations Cheat Sheet for Developers
+
+## Realistic Chain: <a href="https://gist.github.com/amosgyamfi/fa899f1026ed71db52c83da5afb69ecf"> Swift file</a>
+![Realistic Chain ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/chains.gif)
+
 Unlock the secrets of iOS spring animations using SwiftUI. Learn all the SwiftUI spring animation types, understand their parameters, and discover how to create organic and fine-grained spring animations to enhance the user experience of your next iOS app.
 
 
