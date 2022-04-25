@@ -106,6 +106,9 @@ This allows you to create a spring animation that is based on response, damping 
 ## Text Spring 1: <a href="https://gist.github.com/amosgyamfi/36858c4d8466f6d384b091bb90538fa8#file-textspring-swift"> Swift file</a>
 ![Text Spring 1 ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/texSpring.gif)
 
+## Heart Icon Animation: Twitter Like Reaction Clone<a href="#"> Swift file (coming soon)</a>
+![Heart Icon Animation: Twitter Like Reaction Clone ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/SwiftUITwitterLike.gif)
+
 ## Text Spring 2: <a href="https://gist.github.com/amosgyamfi/e8c215de81bc5a48e19a425f18487bcd#file-streamtextspring-swift"> Swift file</a>
 ![Text Spring 2 ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/streamSpringDemo.gif)
 
