@@ -1,6 +1,7 @@
 # SwiftUI Spring Animations Cheat Sheet for Developers
 
 ## Download and try the companion Mac App: <a href="https://apps.apple.com/us/app/motionscape-animation-studio/id1616840951"> MotionScape - Animation Studio</a>
+## Check the companion open-source project: <a href="https://github.com/GetStream/motionscape-app"> MotionScape - Animation Studio</a>
 
 ## Realistic Chain: <a href="https://gist.github.com/amosgyamfi/fa899f1026ed71db52c83da5afb69ecf"> Swift file</a>
 ![Realistic Chain ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/chains.gif)
