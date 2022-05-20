@@ -106,6 +106,9 @@ This allows you to create a spring animation that is based on response, damping 
 
 ## SwiftUI Spring Animation Examples
 
+## Proceed with TouchID: <a href="soon"> Swift file</a>
+![Proceed with TouchID ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/touchIDAnimation.gif)
+
 ## Text Spring 1: <a href="https://gist.github.com/amosgyamfi/36858c4d8466f6d384b091bb90538fa8#file-textspring-swift"> Swift file</a>
 ![Text Spring 1 ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/texSpring.gif)
 
