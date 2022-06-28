@@ -117,7 +117,7 @@ This allows you to create a spring animation that is based on response, damping 
 
 ## Animated Font Weight: 
 <p align="center">
- ![ Animated Font Weight ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/swiftUITextAnimation.gif)
+ <img src="[http://some_place.com/image.png](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/swiftUITextAnimation.gif)" />
 </p>
 
 ```swift
