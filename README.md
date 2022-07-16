@@ -1,5 +1,8 @@
 # SwiftUI Spring Animations Cheat Sheet for Developers
 
+## Springy Duo: <a href=""> Available soon</a>
+![Springy Duo ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/springyDuo.gif)
+
 ## Download and try the companion Mac App: <a href="https://apps.apple.com/us/app/motionscape-animation-studio/id1616840951"> MotionScape - Animation Studio</a>
 ## Check the companion open-source project: <a href="https://github.com/GetStream/motionscape-app"> MotionScape - Animation Studio</a>
 
