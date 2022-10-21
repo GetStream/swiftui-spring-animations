@@ -23,6 +23,9 @@ Unlock the secrets of iOS spring animations using SwiftUI. Learn all the SwiftUI
 ## A Bouncy Transition: <a href="https://github.com/GetStream/swiftui-spring-animations/blob/main/SwiftUISpringAnimations/SpringExamples/BouncyHamburger.swift"> Swift file</a>
 ![Bouncy Transition ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/bouncyHamburgers.gif)
 
+## Transition a hamburger menu to a back icon <a href="https://gist.github.com/amosgyamfi/71546754e7b04a152bbe57ec0708b338#file-hamburgertobackicontransition-swift"> Swift file</a>
+![ Transition a hamburger menu to a back icon ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/hamburgerToBack.gif)
+
 
 <hr/>
 
