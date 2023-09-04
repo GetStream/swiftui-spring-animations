@@ -1,5 +1,12 @@
 # SwiftUI Spring Animations Cheat Sheet for Developers
 
+## Try the new Spring Animation in SwiftUI: <a href="https://gist.github.com/amosgyamfi/9d9d41bc662cf5b66d325bb231dd88b8#file-newspring-swift"> Snippet</a>
+![Try the new Spring Animation in SwiftUI ](https://github.com/amosgyamfi/open-swiftui-animations/blob/master/AllGIF/extraBounce.gif)
+
+## Animate chat bubbles an extra bounce spring
+![Animate chat bubbles an extra bounce spring ](https://github.com/amosgyamfi/open-swiftui-animations/blob/master/AllGIF/amLiveFinal3.gif)
+---
+
 ## Springy Duo: <a href=""> Available soon</a>
 ![Springy Duo ](https://github.com/GetStream/swiftui-spring-animations/blob/main/Misc/springyDuo.gif)
 
