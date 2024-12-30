@@ -16,6 +16,10 @@ struct WhatIsSpringAnimation: View {
                         .fill(.blue.gradient)
                         .frame(width: 80, height: 80)
                         .shadow(radius: 12, x: 0, y: 10)
+                        .overlay(
+                            Circle()
+                                .stroke(.white, style: StrokeStyle(lineWidth: 2))
+                        )
                 }
             } animation: { _ in
                     .snappy(duration: 5, extraBounce: 0.8)
