@@ -14,7 +14,7 @@ As your 2025 New Year gift, the [Xcode project](https://github.com/GetStream/swi
 
 ## Springs Overview
 
-![What is a spring animation?](Misc/WhatIsSpring.gif)
+![What is a spring animation?](Misc/whatIsSpringAnimation.gif)
 [WhatIsSpringAnimation.swift](https://github.com/GetStream/swiftui-spring-animations/blob/main/AnimateWithSprings/AnimateWithSprings/WhatIsSpringAnimation.swift)
 
 Spring animation emulates the behavior of an object attached to a physical spring, as shown above, which helps you create an illusion of naturalness and believableness in the human eyes. It mimics the movement of soft objects and their properties in the physical world. Unlike animating with timing curves, springs can cause animations to begin and stop at different times to create smooth and imprecise movements using their initial velocity.
@@ -286,7 +286,7 @@ struct SpringWithLargeBounce: View {
 }
 ```
 
-** Getting a Small Bounce**: `bounce = 0.15`
+**Getting a Small Bounce**: `bounce = 0.15`
 
 ![A spring with a small bounce](Misc/SpringWithSmallBounce.gif)
 
