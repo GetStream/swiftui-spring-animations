@@ -6,7 +6,7 @@
 
 [SilentMode](https://github.com/GetStream/swiftui-spring-animations/tree/main/AnimateWithSprings/AnimateWithSprings/SpringExampleUseCases/SpringsUseCases/Animation/SilentMode)
 
-Spring animation provides an excellent way for developers to add elegant and dynamic motion to their apps. This article and its companion repo focus on Spring Animation on iOS using SwiftUI. It serves as a Spring Animation cheat sheet and cookbook for building fine-grained and buttery motion/animations on iOS. However, developers can apply the core concepts to create fluid animations, motion, and transitions for platforms like React, Android, and Flutter.
+Spring animation provides an excellent way for developers to add elegant and dynamic motion to their apps. This repo and its companion project focus on Spring Animation on iOS using SwiftUI. It serves as a Spring Animation cheat sheet and cookbook for building fine-grained and buttery motion/animations on iOS. However, developers can apply the core concepts to create fluid animations, motion, and transitions for platforms like React, Android, and Flutter.
 
 As your 2025 New Year gift, the [Xcode project](https://github.com/GetStream/swiftui-spring-animations/tree/main/AnimateWithSprings) on [GitHub](https://github.com/GetStream/swiftui-spring-animations) includes many practical examples and use cases illustrating key spring animation concepts and parameters.
 
@@ -14,7 +14,7 @@ As your 2025 New Year gift, the [Xcode project](https://github.com/GetStream/swi
 
 ## Springs Overview
 
-This post outlines my approach to creating fluid and organic animations/motion for [chat](https://getstream.io/chat/) and [audio/video](https://getstream.io/video/) using nothing but [springs](https://developer.apple.com/documentation/swiftui/spring) in SwiftUI. Get inspired by the techniques, tips, tricks, and hidden gems this post unlocks to add beautiful and useful animations to your apps powered by springs.
+The ReadMe outlines my approach to creating fluid and organic animations/motion for [chat](https://getstream.io/chat/) and [audio/video](https://getstream.io/video/) using nothing but [springs](https://developer.apple.com/documentation/swiftui/spring) in SwiftUI. Get inspired by the techniques, tips, tricks, and hidden gems this post unlocks to add beautiful and useful animations to your apps powered by springs.
 
 ![What is a spring animation?](Misc/whatIsSpringAnimation.gif)
 [WhatIsSpringAnimation.swift](https://github.com/GetStream/swiftui-spring-animations/blob/main/AnimateWithSprings/AnimateWithSprings/WhatIsSpringAnimation.swift)
@@ -50,8 +50,8 @@ withAnimation {
 
 The following are some reasons why you may want to use spring animations in your apps.
 
-They help to achieve continuous position and velocity, which prevents unnatural, sudden changes.
-The smooth, snappy, and bouncy presets make animating with springs easy. These are default spring values used across iOS.
+- They help to achieve continuous position and velocity, which prevents unnatural, sudden changes.
+- The smooth, snappy, and bouncy presets make animating with springs easy. These are default spring values used across iOS.
 
 - **Fine-tuning**: The default presets `.smooth`, `.bouncy`, `.snappy` can be easily tuned for different use cases, such as when there is less `.bounce(duration: 1.0, extraBounce: 0.2)` or more `.bounce(duration: 1.0, extraBounce: 0.6)` bounce.
 - **Customization**: Springs can be easily customized by specifying the duration and bounce values `.spring(duration: 0.6, bounce: 0.2)`.
@@ -397,49 +397,71 @@ On iOS, you can find non-bouncy springs across many places, including the follow
 
 ![App icon launch](Misc/appIconLaunch.gif)
 
-### Todo: Getting a Flatter Spring (Overdamped): `bounce < 0`
+### Getting a Flatter Spring (Overdamped): `bounce < 0`
 
-A spring with a negative bounce value (`bounce < 0`) creates a flatter spring animation than when `bounce = 0`. The resulting Physics spring curve is called an overdamped spring.
+A spring with a negative bounce value (`bounce < 0`) creates a flatter spring animation than when `bounce = 0`. The resulting Physics spring curve is called an overdamped spring. [FlatterOrOverdampedSpring.swift](https://github.com/GetStream/swiftui-spring-animations/blob/main/AnimateWithSprings/AnimateWithSprings/NewSprings/SpringAndBounce/FlatterOrOverdampedSpring.swift)
 
-**Practical Examples of Flatter Springs**
-Create a serious effect
+![Flatter spring](Misc/flatterSpring.gif)
 
-### To-do: Defining a Spring Without Friction
+### Defining a Spring Without Friction
+
+![Spring without friction](Misc/springWithoutFriction.gif)
+
+[SpringWithoutFriction.swift](https://github.com/GetStream/swiftui-spring-animations/blob/main/AnimateWithSprings/AnimateWithSprings/NewSprings/SpringAndBounce/SpringWithoutFriction.swift)
 
 The bounce value must be 100% to create a spring animation with no friction, creating a cosine wave. The formation of a cosine curve/wave makes the spring oscillate forever.
 
-## To-do: Going Further: Creating Custom Springs `.spring()`
+## Going Further: Creating Custom Springs `.spring()`
 
-You can specify the bounce and duration when using this spring type. The bounce has a range of `-1.0 to 1.0`.
+![A custom spring](Misc/customSpringDuration.gif)
 
-``swift
-withAnimation(.spring(duration: 0.6, bounce: 0.2)) { // Changes }
+As some previous spring animations illustrate, you can specify the bounce and duration using this spring type `.spring()`. The bounce has a range of `-1.0 to 1.0`. Refer to [CreateCustomSpring](https://github.com/GetStream/swiftui-spring-animations/tree/main/AnimateWithSprings/AnimateWithSprings/CreateCustomSpring) in the Xcode project navigator to see all examples.
 
-````
+```swift
+import SwiftUI
 
-## To-do: Creating Custom Springs
+enum CustomSpringDurationPhases {
+case start, middle, end
+}
 
+struct CustomSpringDuration: View {
+var body: some View {
+Rectangle()
+.fill(.blue.gradient)
+.frame(width: 200, height: 200)
+.phaseAnimator([CustomSpringDurationPhases.start, .middle, .end], content: { view, morthRotate in
+view
+.cornerRadius(morthRotate == .start ? 0 :
+morthRotate == .middle ? 32 : 100)
+.rotationEffect(.degrees(morthRotate == .middle ? 180 : 0))
+}, animation: { morthRotate in
+switch morthRotate {
+case .start: return .spring(duration: 1.0)
+case .middle: return .spring(duration: 1.0)
+case .end: return .spring(duration: 1.0)
+}
+})
+}
+}
 
-You can create a custom spring animation by specifying the perceptual duration and bounce values.
+```
 
+## Using SwiftUI’s Spring Model Type
 
-## To-do: Using SwiftUI’s Spring Model Type
+![Spring modeling](Misc/springModeling.gif)
 
-
-Aside from the ability to customize the built-in springs in iOS 17, SwiftUI allows modeling unrefined Spring(mass, stiffness, damping) with duration and bounce. The spring model type allows the creation of a representation of spring based on existing parameters (mass, stiffness, damping), which can be used directly as a parameter of `.spring()`.  For example, you can model a spring as:
+Aside from the ability to customize the built-in springs in iOS 17, SwiftUI allows modeling unrefined Springs (mass, stiffness, damping) with duration and bounce. The spring model type allows the creation of a representation of spring based on existing parameters (mass, stiffness, damping), which can be used directly as a parameter of the `.spring()` type. For example, you can model a spring as:
 
 ```swift
 let mySpring = Spring(duration: 0.5, bounce: 0.2)
 let (mass, stiffness, damping) = (mySpring.mass, mySpring.stiffness, mySpring.damping)
+```
 
-let otherSpring = Spring(mass: 1, stiffness: 100, damping: 10) withAnimation(.spring(otherSpring)) { // Changes }
-````
+Checkout the [SpringModeling](https://github.com/GetStream/swiftui-spring-animations/tree/main/AnimateWithSprings/AnimateWithSprings/NewSprings/SpringModeling) folder in the Xcode project for all examples.
 
-## To-do: Converting Springs: Calculate Damping and Stiffness
+## Converting Springs: Calculate Damping and Stiffness
 
-With a given mass, bounce, and duration, you can easily calculate the damping and stiffness of the spring using the following formulas.
-
-When working with a spring model type, you can convert the duration and bounce values to stiffness and damping, giving a mass of 1.0 and using the following formulas.
+Using a spring model type, you can easily calculate the damping and stiffness of the spring with a given mass, bounce, and duration.
 
 ```swift
 mass = 1
@@ -450,22 +472,39 @@ damping = 1 - 4π × bounce ÷ duration, bounce ≥ 0
                   4π ÷ (duration + 4π × bounce), bounce < 0
 ```
 
-## To-do: Build Advanced Spring Behaviors
+An example of this approach will be added later. To learn more, visit the Apple Developer video, [Animate With Springs - WWDC23](https://developer.apple.com/videos/play/wwdc2023/10158/).
 
-You can call built-in spring methods such as `value` and `velocity` to model your own advanced spring behaviors. These methods are useful for building simulations and getting values for charts.
+## Build Advanced Spring Behaviors
 
-`value`: To obtain the position of the spring, call the value parameter.
-`target`: The target you want the object (spring) to move towards.
-`time`: The time you want to evaluate the spring at.
-`velocity`: Velocity of the object over time.
+You can call built-in spring methods such as `value` and `velocity` to model your advanced spring behaviors. These methods are useful for building simulations.
 
-## To-do: Spring Animation Best Practices
+```swift
+// Spring Model
+let mySpring = Spring(duration: 0.4, bounce: 0.2)
+let value = mySpring.value(target: 1, time: time)
+let velocity = mySpring.velocity(target: 1, time: time)
+```
+
+- `value`: To obtain the position of the spring, call the value parameter.
+- `target`: The target you want the object (spring) to move towards.
+- `time`: The time you want to evaluate the spring at.
+- `velocity`: Velocity of the object over time.
+
+Watch [Animate With Springs - WWDC23](https://developer.apple.com/videos/play/wwdc2023/10158/) to learn more.
+
+## Spring Animation Best Practices
+
+![Silent and ringing animation](Misc/silentRing.gif)
+
+[SilentRing.swift](https://github.com/GetStream/swiftui-spring-animations/blob/main/AnimateWithSprings/AnimateWithSprings/SpringExampleUseCases/SpringsUseCases/Animation/SilentMode/SilentRing.swift)
 
 Springs can be very annoying when not used in the right way or for the appropriate purpose.
 
-When unsure of the exact value, always start with `bounce = 0`. Then, increment it gradually to fine-tune the animation and obtain the required bounciness.
-A bounce value of about 0.3 creates a noticeable springiness. Setting the `bounce > 0.4 ' creates extreme bounciness. Be cautious of such values because they may create exaggerated effects for UI animations.  
-Define the character of the animation. Should it be serious, relaxed, playful, or fast-paced?
-Springs do not always need to be bouncy. You should use bounciness appropriately.
+- When unsure of the exact value, always start with `bounce = 0`. Then, increment it gradually to fine-tune the animation and obtain the required bounciness.
+- A bounce value of about 0.3 creates a noticeable springiness. Setting the `bounce > 0.4 ' creates extreme bounciness. Be cautious of such values because they may create exaggerated effects for UI animations.
+- **Define the character of the animation**. It is crucial to define the purpose of your spring animation before creating it. Can it be serious, relaxed, playful, fast-paced, or exaggerated?
+- **Springs do not always need to be bouncy**. You should use bounciness appropriately. A smooth or snappy spring should work fine most of the time.
 
-## To-do: Where To Go From Here
+## What’s Coming Next?
+
+The spring animation projects [repo](https://github.com/GetStream/swiftui-spring-animations/tree/main) will be updated occasionally with diverse examples and use cases throughout 2025 and beyond. ⭐️ or ⫚ it to make it yours. If you have any questions or suggestions, please open an issue or contact me directly on [X](https://x.com/amos_gyamfi).
