@@ -14,12 +14,14 @@ As your 2025 New Year gift, the [Xcode project](https://github.com/GetStream/swi
 
 ## Springs Overview
 
+This post outlines my approach to creating fluid and organic animations/motion for [chat](https://getstream.io/chat/) and [audio/video](https://getstream.io/video/) using nothing but [springs](https://developer.apple.com/documentation/swiftui/spring) in SwiftUI. Get inspired by the techniques, tips, tricks, and hidden gems this post unlocks to add beautiful and useful animations to your apps powered by springs.
+
 ![What is a spring animation?](Misc/whatIsSpringAnimation.gif)
 [WhatIsSpringAnimation.swift](https://github.com/GetStream/swiftui-spring-animations/blob/main/AnimateWithSprings/AnimateWithSprings/WhatIsSpringAnimation.swift)
 
-Spring animation emulates the behavior of an object attached to a physical spring, as shown above, which helps you create an illusion of naturalness and believableness in the human eyes. It mimics the movement of soft objects and their properties in the physical world. Unlike animating with timing curves, springs can cause animations to begin and stop at different times to create smooth and imprecise movements using their initial velocity.
+Spring animation emulates the behavior of an object attached to a physical spring, as shown above, which helps you create an illusion of naturalness and believableness in the human eyes. It mimics the movement of soft objects and their properties in the physical world. Unlike animating with timing curves (e.g. `easeIn`, `easeOut`, `easeInOut`), springs can cause animations to begin and stop at different times to create smooth and imprecise movements using their initial velocity.
 
-**Initial Velocity**
+**What is Initial Velocity?**
 
 The initial velocity of an object attached to a spring is the initial rate of change of a specific parameter you want to animate. Its purpose is to manage the spring animation's starting speed. The initial velocity is directly proportional to momentum. A higher value increases the initial momentum and overshoots the animation. It is helpful for human-initiated animations and gestural interactions involving drag, tap, and swipe.
 
