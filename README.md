@@ -159,7 +159,7 @@ From iOS 17, you can add three built-in spring presets such as `.smooth`,`.snapp
 
 - `.smooth`: A smooth spring has a predefined duration. However, it does not have a bounce value `smooth(duration: TimeInterval = 0.5, extraBounce: Double = 0.0)`.
 - `.snappy`: A snappy spring has a predefined duration and a small amount of bounce `snappy(duration: TimeInterval = 0.5, extraBounce: Double = 0.0)`.
-- `.bouncy`: It has a predefined duration and a large bounce. `snappy(duration: TimeInterval = 0.5, extraBounce: Double = 0.0)`.
+- `.bouncy`: It has a predefined duration and a large bounce. `bouncy(duration: TimeInterval = 0.5, extraBounce: Double = 0.0)`.
 
 From the preview above, all the examples look identical. However, reducing the playback speed will show a slight difference. Check out the **SpringPresets** folder of the Xcode project to see examples of each preset.
 
